@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "covid19"
+version = "0.1.0"
+description = ""
+authors = ["Mafinar Khan <mafinar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+Django = "^3.1.3"
+psycopg2 = "^2.8.6"
+tabulate = "^0.8.7"
+jupyter = "^1.0.0"
+django-extensions = "^3.0.9"
+pandas = "^1.1.4"
+matplotlib = "^3.3.3"
+plotly = "4.12.0"
+notebook = ">=5.3"
+ipywidgets = ">=7.2"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+pre-commit = "^2.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
